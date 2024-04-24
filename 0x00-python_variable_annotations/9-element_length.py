@@ -2,10 +2,10 @@
 """
 complex types - annotating a function
 """
-from typing import Tuple, Iterable, Sequence
+from typing import List, Tuple, Iterable, Sequence
 
 
-def element_length(lst: Iterable[Sequence]) -> Tuple[Sequence, int]:
+def element_length(lst: Iterable[Sequence]) -> List[Tuple[Sequence, int]]:
     """
     annotated function that has been defined
     before hand
